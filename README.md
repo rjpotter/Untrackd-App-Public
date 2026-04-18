@@ -3,7 +3,7 @@
 
 > **Status:** Completed — pending App Store release
 
-![Untrackd Hero](assets/track-playback-speed.png)
+<img src="assets/track-playback-speed.png" width="600">
 
 ---
 
@@ -20,83 +20,67 @@ Built entirely solo in Swift/SwiftUI, from GPS engine to social layer.
 ### 📍 GPS Track Recording
 Real-time activity tracking with a custom GPS filtering pipeline that eliminates glitch spikes — no more 100 mph readings from a bad satellite fix. Calculates max speed, vertical gain/loss, distance, and time on the fly.
 
-![Track Recording](assets/record.png)
+<img src="assets/record.png" width="300">
 
 ---
 
 ### 📊 Detailed Stats & History
 Per-track stats are cached locally and synced to Firebase. Lifetime stats aggregate across every session you've ever recorded — top speed, total vertical, best days, streaks, and more. Tappable stat cards drill into dedicated detail views.
 
-![Stats Overview](assets/profile-stats.png)
-
-![Track Stats](assets/track-stats.png)
+<img src="assets/profile-stats.png" width="300"> <img src="assets/track-stats.png" width="300">
 
 ---
 
 ### 🗺️ 3D Interactive Map with Route Builder
 A Mapbox-powered 3D map lets you visualize saved routes as colored overlays with elevation profiles. Tap any route to open an inspector with a scrub bar, stats grid, and color picker. Build new routes by panning the map and dropping waypoints with a crosshair — no tap-target fighting.
 
-![3D Map Routes](assets/map-routes.png)
+<img src="assets/map-routes.png" width="300">
 
-![Route Planning](assets/route-planning.gif)
+<img src="assets/route-planning.gif" width="300">
 
-![Route Inspector](assets/route-inspector.png)
-
-![Route Inspector Stats](assets/route-inspector-stats.png)
+<img src="assets/route-inspector.png" width="300"> <img src="assets/route-inspector-stats.png" width="300">
 
 ---
 
 ### 🎬 Track Playback & Visualization
 Recorded tracks play back as animated overlays with four color modes: Normal, Speed gradient, Activity type, and Uphill/Downhill. A scrub bar lets you move through the track frame by frame. Chairlift segments are detected automatically.
 
-![Track Playback](assets/track-playback.gif)
-
-![3D Track Playback](assets/3d-track-playback.gif)
+<img src="assets/track-playback.gif" width="300"> <img src="assets/3d-track-playback.gif" width="300">
 
 ---
 
 ### 🗺️ Terrain Overlays
 Visualize slope angle, aspect, and live weather radar directly on the 3D map to plan routes and assess conditions before you go.
 
-![Slope Angle](assets/map-slope.png)
-
-![Aspect](assets/map-aspect.png)
-
-![Radar](assets/map-radar.png)
+<img src="assets/map-slope.png" width="300"> <img src="assets/map-aspect.png" width="300"> <img src="assets/map-radar.png" width="300">
 
 ---
 
 ### ✏️ Track Editing
 Trim and adjust recorded tracks with a timeline editor. Set activity type, adjust start and end points, and add segments directly to the 3D map.
 
-![Track Edit](assets/track-edit.png)
+<img src="assets/track-edit.png" width="300">
 
 ---
 
 ### 📤 Track Export
 Export your tracks as shareable cards — either a map snapshot with stats overlaid, or a full photo background with a draggable track sticker. Supports Instagram-compatible canvas sizes.
 
-![Export](assets/export.png)
-
-![Export Card](assets/export-card.gif)
+<img src="assets/export.png" width="300"> <img src="assets/export-card.gif" width="300">
 
 ---
 
 ### 🥽 AR Track Viewer *(Experimental)*
 View a saved route overlaid on the real world through your camera using ARKit. GPS coordinates are converted to local ENU space and rendered as a 3D tube on the ground, anchored to your real-world position — like a Waze overlay for the trail ahead.
 
-![AR Viewer](assets/ar.png)
+<img src="assets/ar.png" width="300">
 
 ---
 
 ### 👥 Social Layer
 Follow friends, view their tracks and stats, and compare performances. Friend profiles load from Firebase with full stat breakdowns. Activity types (ski, hike, bike) tag each track and filter into season breakdowns.
 
-![Friends List](assets/friends-list.png)
-
-![Add Friends](assets/add-friends.png)
-
-![Edit Profile](assets/edit-profile.png)
+<img src="assets/friends-list.png" width="300"> <img src="assets/add-friends.png" width="300"> <img src="assets/edit-profile.png" width="300">
 
 ---
 
