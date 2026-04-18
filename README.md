@@ -3,7 +3,7 @@
 
 > **Status:** Completed — pending App Store release
 
-<img src="assets/track-playback-speed.png" width="600">
+<img src="assets/track-playback-speed.png" width="300">
 
 ---
 
