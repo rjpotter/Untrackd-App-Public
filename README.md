@@ -3,6 +3,8 @@
 
 > **Status:** Completed — pending App Store release
 
+> 📱 **[Try it on TestFlight](YOUR_TESTFLIGHT_LINK)**
+
 <img src="assets/track-playback-speed.png" width="300">
 
 ---
@@ -105,6 +107,7 @@ Follow friends, view their tracks and stats, and compare performances. Friend pr
 - **Stats Cache** — Per-track and lifetime stats are cached locally in a typed `Codable` struct system, independent of Firebase. Cache rebuilds without wiping activity assignments. Syncs to Firebase on update via `NotificationCenter`.
 - **GPS Glitch Filtering** — A 7-point sliding window compares speed to/from each candidate point against the surrounding context. Spikes that aren't corroborated by neighboring points are removed before stats are calculated.
 - **Chairlift Detection** — Segments are classified as lifts using a path straightness score over a sliding window, making it robust to gondolas and terrain-variable lifts where elevation alone fails.
+- **AR Track Navigation** - Saved routes render as 3D tubes in ARKit using `.gravityAndHeading` world alignment. GPS coordinates are converted to local ENU (East-North-Up) space via WGS84 projection, anchoring the virtual path to the user's real-world position. The scene rebuilds dynamically as the user moves.
 - **Mapbox Architecture** — The map fills the full ZStack as a base layer with UI overlaid on top. Invisible tap layers use `lineOpacity: 0.001` (not `UIColor.clear`) for reliable hit detection. Route previews update via `updateGeoJSONSource` on a `CircleLayer`-backed source to avoid flickering.
 - **Export Rendering** — Canvas is rendered at preview dimensions and scaled up, keeping sticker positions and crop alignment correct across all export size presets.
 
@@ -113,6 +116,8 @@ Follow friends, view their tracks and stats, and compare performances. Friend pr
 ## Project Status
 
 The app is feature-complete and currently in TestFlight. App Store release is pending LLC formation.
+
+📱 **[Try it on TestFlight](YOUR_TESTFLIGHT_LINK)**
 
 This repository is intentionally partial — core business logic and the full source are kept private. This repo is a curated window into the architecture and feature set.
 
