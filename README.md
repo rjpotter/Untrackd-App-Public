@@ -5,6 +5,8 @@
 
 > 📱 **[Try it on TestFlight](https://testflight.apple.com/join/JWNQrnyx)**
 
+> 🌐 **[Visit the Website](https://www.untrackdapp.com)**
+
 <img src="assets/track-playback-speed.png" width="300">
 
 ---
@@ -117,7 +119,9 @@ Follow friends, view their tracks and stats, and compare performances. Friend pr
 
 The app is feature-complete and currently in TestFlight. App Store release is pending LLC formation.
 
-📱 **[Try it on TestFlight](https://testflight.apple.com/join/JWNQrnyx)**
+> 📱 **[Try it on TestFlight](https://testflight.apple.com/join/JWNQrnyx)**
+
+> 🌐 **[Visit the Website](https://www.untrackdapp.com)**
 
 This repository is intentionally partial — core business logic and the full source are kept private. This repo is a curated window into the architecture and feature set.
 
